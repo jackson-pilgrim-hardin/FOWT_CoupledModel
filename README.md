@@ -12,5 +12,6 @@ BEMT_RotSpeed.csv -- rated rotor speed values for IEA 15 MW RWT, used when bypas
 BEMT_Simulation_Toolbox -- functions for BEMT aerodynamic solver
 DISCON.IN -- rosco control deifnition file
 ROSCO_toolbox.zip -- this is the file that contains all ROSCO source code. Needs to be unzipped to work.
+GMM_Cluser_Centers.zip -- Contains the csv files of the Gaussian Mixture Model cluster centers for the ERA 5 data at four case study locations. These cluster centers are inputs to AQWA and for the AerodynamicModule_Solver_Server file.
 
 I would highly recommend consulting the AQWA reference manual external user force section for creating the external user force server workflow
