@@ -5,7 +5,7 @@ The code in this repository should be run from "...\ANSYSACADEMICSTUDENT_2024R1_
 This code is written for the example of the IEA 15 MW RWT and the UMaine Volturn-US floater
 The enviornmental paramters are 50 GMM cluster centers for 1 year of data from the Celtic Sea PDA 1 lease site in the UK
 
-AerodynamicModule_Solver_Server -- This file creates the server that communicates between AQWA and the user code
+AerodynamicModule_Solver_Server -- This file creates the server that communicates between AQWA and the user code. This file is made with irregular wave loading in mind, but is easily repurposed for the regular wave case
 AqwaServerMgr -- Class for server
 BEMT_Pitch.csv -- rated pitch values for IEA 15 MW RWT, used when bypassing ROSCO control
 BEMT_RotSpeed.csv -- rated rotor speed values for IEA 15 MW RWT, used when bypassing ROSCO control
